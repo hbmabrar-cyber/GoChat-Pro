@@ -485,6 +485,7 @@ firebase.initializeApp({
 });
 
 
+
 const auth=firebase.auth(); const db=firebase.firestore();
 let currentUser=null,currentUserData=null,currentChatId=null,currentChatUser=null,feedUnsub=null,chatUnsub=null,notifUnsub=null,activeCommentPostId=null,commentPanelListener=null;
 let chatCounters = {}; let currentFeedTab = 'foryou'; let currentTaggedFriends = []; let currentMentionPostId = null; let pendingMentions = {}; let amIBlockedByCurrent = false;
